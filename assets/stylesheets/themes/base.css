@@ -1,0 +1,9 @@
+:root {
+    --bg-color: #fff;
+    --nav-text-color: rgba(0, 0, 0, 0.28);
+    --nav-text-color-active: #000000;
+    --base-theme-color: #2e2a4f;
+    --base-theme-color-active: #ffd700;
+    --contact-button-color: #f0e68c;
+    --contact-button-color-hover: #ffd700;
+}

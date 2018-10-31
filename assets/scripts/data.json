@@ -1,0 +1,105 @@
+{
+    "skills": [
+        {
+            "key": "js",
+            "language": "Javascript",
+            "skillOut100": "85",
+            "experience": {
+                "since": "Feb 2015",
+                "upto": ""
+            },
+            "stack": [
+                {
+                    "key": "react",
+                    "framework": "AngularJS",
+                    "skillOut100": "90",
+                    "experience": {
+                        "since": "Feb 2015",
+                        "upto": "Nov 2017"
+                    }
+                },
+                {
+                    "key": "anjs",
+                    "framework": "ReactJS",
+                    "skillOut100": "90",
+                    "experience": {
+                        "since": "Dec 2017",
+                        "upto": "Nov 2018"
+                    }
+                }
+            ]
+        },
+        {
+            "key": "cs",
+            "language": "C#",
+            "skillOut100": "80",
+            "experience": {
+                "since": "Feb 2015",
+                "upto": "Mar 2018"
+            },
+            "stack": []
+        },
+        {
+            "key": "cpp",
+            "language": "C/C++",
+            "skillOut100": "70",
+            "experience": {
+                "since": "Jun 2006",
+                "upto": "Jun 2008"
+            },
+            "stack": []
+        },
+        {
+            "key": "rs",
+            "language": "Rust",
+            "skillOut100": "40",
+            "experience": {
+                "since": "Sep 2018",
+                "upto": ""
+            },
+            "stack": []
+        },
+        {
+            "key": "objc",
+            "language": "Objective C",
+            "skillOut100": "65",
+            "experience": {
+                "since": "Feb 2014",
+                "upto": "Nov 2014"
+            },
+            "stack": []
+        }
+    ],
+    "credits": {
+        "template": [
+            {
+                "name": "OnePageLove",
+                "link": "https://demos.onepagelove.com/html/stage/",
+                "attrition": ""
+            }
+        ],
+        "logo": [
+            "Mahadeer",
+            "Bharath Kumar"
+        ],
+        "icons": [
+            {
+                "name": "FlatIcon",
+                "link": "https://www.flaticon.com/",
+                "attrition": ""
+            }
+        ],
+        "libraries": [
+            {
+                "name": "Bootstrap",
+                "link": "http://getbootstrap.com/",
+                "attrition": ""
+            },
+            {
+                "name": "jQuery",
+                "link": "https://jquery.com/",
+                "attrition": ""
+            }
+        ]
+    }
+}

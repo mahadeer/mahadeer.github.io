@@ -1,0 +1,389 @@
+@font-face {
+    font-family: Ubuntu-Regular;
+    src: url('../fonts/Ubuntu-Regular.ttf'); 
+}
+  
+@font-face {
+    font-family: Ubuntu-Bold;
+    src: url('../fonts/Ubuntu-Bold.ttf'); 
+}
+
+html, body {
+	font-family: 'Ubuntu-Regular', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/* common style's */
+a {
+  color: #7447ae;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+a:hover, a:focus, a:active {
+  text-decoration: none;
+  outline: none;
+  -webkit-transition: all 0.5s;
+  -moz-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	line-height: 24px; 
+}
+
+/* button style */
+.btn, .btn.disabled {
+    background: #f44336;
+    color: #ffffff;
+    border: 0;
+    border-radius: 20px;
+    font-size: 16px;
+    padding: 10px 30px;
+    box-shadow: 3px 3px 15px rgba(0, 0, 0, 0.2);
+	text-transform: uppercase;
+}
+
+.btn:hover {
+    background: #e53935;
+	color: #ffffff;
+    box-shadow: 6px 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn {
+    opacity: .5;
+}
+
+/* form style */
+label {
+    font-weight: 400;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    height: 40px;
+    font-size: 18px;
+    border: 0;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    padding: 6px 0px;
+    box-shadow: none;
+	font-weight: 100;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.form-control:focus {
+    border-color: #666666;
+    outline: 0;
+    box-shadow: none;
+	-webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    transition: all 0.5s;
+}
+
+.left-wrapper, .right-wrapper{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* event banner css */
+.event-banner-wrapper {
+	position: fixed;
+    width: 41.66666667%;
+    height: 100%;	
+    padding: 20px;
+	background: url(../images/prof_pic.jpg);
+	background-position: top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+.logo h1 {
+    font-family: 'Ubuntu-Bold', sans-serif;
+    position: absolute;
+    color: #ffffff;
+    font-size: 28px;
+    font-weight: 300;
+    margin: 0;
+    top: 20px;
+    left: 20px;
+}
+
+.logo img {
+    max-width: 60px;
+}
+
+.event-banner-wrapper h2 {
+    position: absolute;
+	font-family: 'Ubuntu-Bold', sans-serif;
+	font-size: 4vw;
+    font-weight: 900;
+	line-height: 4.5vw;
+	color: #fff;
+    margin: 0;
+    bottom: 30px;
+}
+
+.event-banner-wrapper h2 span {
+    display: block;
+    font-size: 1.5vw;
+}
+
+.event-banner-wrapper p {
+    position: absolute;
+    font-family: 'Ubuntu-Bold', sans-serif;
+    font-size: 16px;
+    font-weight: 900;
+    color: #fff;
+    margin: 0;
+    bottom: 15px;
+}
+
+.event-banner-wrapper p a {
+	color: #fff;
+}
+
+.event-banner-wrapper p a:hover {
+	border-bottom: 1px solid #fff;
+}
+
+/* event content css */
+.event-content-wrapper{	
+    padding: 40px;
+    height: 100vh;
+    background-color: var(--bg-color);
+}
+
+.event-tab .nav-tabs {
+    display: flex;
+    justify-content: space-evenly;
+	position: fixed;
+	top: 0;
+	left: 41.66666667%;
+	background: transparent;
+	width: 58.33333333%;
+	border-bottom: 0;
+    padding: 20px 40px;
+	margin-bottom: 30px;
+    z-index: 99;
+}
+
+.event-tab .nav-tabs > li > a {
+    font-size: 18px;
+	color: var(--nav-text-color);
+    margin-right: 30px;
+    padding: 5px 0px;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+}
+
+.event-tab .nav-tabs > li.active > a,
+.event-tab .nav-tabs > li.active > a:hover, 
+.event-tab .nav-tabs > li.active > a:focus,
+.event-tab .nav-tabs > li > a:hover, 
+.event-tab .nav-tabs > li > a:focus {
+	background: transparent;
+    color: var(--nav-text-color-active);
+    border: 1px solid transparent;
+	transition: all 0.5s;
+	-webkit-transition: all 0.5s;
+}
+
+.event-tab .tab-content {
+    margin-top: 45px;
+}
+
+.event-tab .tab-content .tab-pane {
+    margin-bottom: 30px;
+    max-height: calc(100vh - 120px);
+    overflow-y: scroll;
+}
+
+#social-me-container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+#social-me-container a img {
+    max-width: 30px;
+    max-height: 30px;
+}
+
+#social-me-container a {
+    background: var(--contact-button-color);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+
+#social-me-container a:hover {
+    background: var(--contact-button-color-hover);
+    padding: 10px 20px;
+}
+
+.credits-content {
+    font-size: 1.5rem;
+    padding-inline-start: 0px;
+}
+
+.credits-content ul {
+	margin: 1rem 0;
+}
+
+.credits-content ul li span {
+    display: block;
+}
+
+.credits-content strong {
+    text-transform: uppercase;
+	letter-spacing: .2rem;
+	font-size: 1.5rem;
+	line-height: 2.4rem;
+}
+
+.failed-error {
+    text-align: center;
+    margin-top: calc(50vh - 100px);
+}
+
+/* Modal css */
+.btn-social-close {
+    max-width: 24px;
+    max-height: 24px;
+}
+
+.modal-content {
+    border-radius: 0;
+}
+
+.modal-body {
+    padding: 0;
+}
+
+.modal-header {
+    padding: 20px 30px;
+    border-bottom: 1px solid #e5e5e5;
+}
+
+.modal-title {
+    text-transform: uppercase;
+}
+
+.modal .close {
+    opacity: 0.4;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.modal .close:hover {
+    opacity: 0.4;
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+}
+
+.modal.right .modal-dialog {
+    position: fixed;
+    margin: auto;
+    width: 350px;
+    height: 100%;
+    -webkit-transform: translate3d(0%, 0, 0);
+    -ms-transform: translate3d(0%, 0, 0);
+    -o-transform: translate3d(0%, 0, 0);
+    transform: translate3d(0%, 0, 0);
+}
+
+.modal.right .modal-content {
+	height: 100%;
+	overflow-y: auto;
+	border: 0;
+}
+	
+.modal.right .modal-body {
+	padding: 30px;
+}
+.modal.right.fade .modal-dialog {
+    right: -320px;
+    -webkit-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -moz-transition: opacity 0.3s linear, right 0.3s ease-out;
+    -o-transition: opacity 0.3s linear, right 0.3s ease-out;
+    transition: opacity 0.3s linear, right 0.3s ease-out;
+}
+	
+.modal.right.fade.in .modal-dialog {
+    right: 0;
+}
+
+
+/* contact form style */
+.contactForm h3 {
+	font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-weight: 600;
+}
+
+.contactForm .btn {
+	width: 100%;
+}
+
+.social-form {
+    margin-top: 50px;
+}
+
+.social-form .social-icons {
+    display: flex;
+    justify-content: space-evenly;
+    list-style: none;
+}
+
+.social-icon {
+    max-width: 34px;
+    max-height: 34px;
+}
+
+.social-icon-pack img:last-child {
+    display: none;
+}
+
+.social-icon-pack:hover img:last-child {
+    display: block;
+}
+
+.social-icon-pack:hover img:first-child {
+    display: none;
+}
+
+.explore-icon {
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+#stack-loader {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+#stack-loader div {
+    text-align: center;
+    margin: 0px auto;
+    position: relative;
+    top: 30vh;
+}
