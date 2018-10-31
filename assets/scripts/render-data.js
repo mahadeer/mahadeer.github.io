@@ -1,6 +1,9 @@
 var __data__ = null;
+var designation = $("#designation");
+
 function RenderData(data) {
     __data__ = data;
+    designation.html(`${data.role}, ${data.company}`);
     BuildSkillsSection(data.skills);
     BuildCreditsSection(data.credits);
     /* Register jQuery events */

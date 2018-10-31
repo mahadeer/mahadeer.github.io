@@ -1,4 +1,4 @@
-const cacheName = 'app-cache-v1';
+const cacheName = 'm-dev-v1';
 const precacheResources = [
   '/',
   'index.html',
@@ -35,6 +35,7 @@ const precacheResources = [
 
 self.addEventListener('install', event => {
   console.info('Service worker install event!');
+  self.skipWaiting();
   event.waitUntil(
     caches.open(cacheName)
       .then(cache => {
@@ -45,7 +46,17 @@ self.addEventListener('install', event => {
 
 self.addEventListener('activate', event => {
   console.info('Service worker activate event!');
-  event.waitUntil(self.clients.claim());
+  event.waitUntil(
+    caches.keys().then(function (cacheNames) {
+      return Promise.all(
+        cacheNames.map(function (oldCacheName) {
+          if (cacheName !== oldCacheName) {
+            return caches.delete(oldCacheName);
+          }
+        })
+      );
+    })
+  );
 });
 
 self.addEventListener('fetch', event => {

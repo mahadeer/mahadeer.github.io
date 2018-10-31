@@ -73,7 +73,7 @@
                     </div>
                     <h2>
                         Mahadeer<br>Mohamed
-                        <span>Tech. Lead, Ducen IT Pvt.Ltd</span>
+                        <span id="designation">Lead, M|Developers</span>
                     </h2>
                     <p>Chennai, TN, India</p>
                 </div>
@@ -89,7 +89,7 @@
                         </ul>
                         <div class="tab-content">
                             <div role="tabpanel" class="tab-pane fade in active" id="summary">
-
+                                <h4>Hello, I'm a Web Developer & Programmer,</h4>
                             </div>
                             <div role="tabpanel" class="tab-pane fade" id="skills"></div>
                             <div role="tabpanel" class="tab-pane fade" id="credits"></div>
@@ -203,7 +203,9 @@
             if ('serviceWorker' in navigator) {
                 try {
                     navigator.serviceWorker.register('./offline-worker.js')
-                        .then(reg => console.info('Offline Supported.', reg.scope));
+                        .then(reg => {
+                            console.info('Offline Supported.', reg.scope);
+                        });
                 } catch (e) {
                     console.warn('Offline not supported.');
                 }
