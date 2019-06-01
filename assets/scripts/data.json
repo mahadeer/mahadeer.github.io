@@ -12,21 +12,57 @@
             },
             "stack": [
                 {
-                    "key": "react",
+                    "key": "nodejs",
+                    "framework": "NodeJS",
+                    "skillOut100": "80",
+                    "experience": {
+                        "since": "Feb 2015",
+                        "upto": ""
+                    }
+                },
+                {
+                    "key": "anjs",
                     "framework": "AngularJS",
-                    "skillOut100": "90",
+                    "skillOut100": "95",
                     "experience": {
                         "since": "Feb 2015",
                         "upto": "Nov 2017"
                     }
                 },
                 {
-                    "key": "anjs",
+                    "key": "react",
                     "framework": "ReactJS",
                     "skillOut100": "90",
                     "experience": {
                         "since": "Dec 2017",
                         "upto": "Nov 2018"
+                    }
+                },
+                {
+                    "key": "d3js",
+                    "framework": "D3.js",
+                    "skillOut100": "70",
+                    "experience": {
+                        "since": "May 2015",
+                        "upto": "Mar 2016"
+                    }
+                },
+                {
+                    "key": "highcharts",
+                    "framework": "Highcharts",
+                    "skillOut100": "70",
+                    "experience": {
+                        "since": "Dec 2018",
+                        "upto": ""
+                    }
+                },
+                {
+                    "key": "misc",
+                    "framework": "'$', '_' & 'R'",
+                    "skillOut100": "80",
+                    "experience": {
+                        "since": "Feb 2015",
+                        "upto": ""
                     }
                 }
             ]
@@ -37,9 +73,28 @@
             "skillOut100": "80",
             "experience": {
                 "since": "Feb 2015",
-                "upto": "Mar 2018"
+                "upto": "Nov 2018"
             },
-            "stack": []
+            "stack": [
+                {
+                    "key": "mvc",
+                    "framework": "MVC",
+                    "skillOut100": "80",
+                    "experience": {
+                        "since": "Aug 2015",
+                        "upto": "Nov 2018"
+                    }
+                },
+                {
+                    "key": "dapper",
+                    "framework": "Dapper",
+                    "skillOut100": "80",
+                    "experience": {
+                        "since": "Aug 2015",
+                        "upto": "Nov 2016"
+                    }
+                }
+            ]
         },
         {
             "key": "cpp",
@@ -54,10 +109,30 @@
         {
             "key": "rs",
             "language": "Rust",
-            "skillOut100": "40",
+            "skillOut100": "60",
             "experience": {
                 "since": "Sep 2018",
                 "upto": ""
+            },
+            "stack": []
+        },
+        {
+            "key": "py",
+            "language": "Python",
+            "skillOut100": "40",
+            "experience": {
+                "since": "Feb 2019",
+                "upto": ""
+            },
+            "stack": []
+        },
+        {
+            "key": "r",
+            "language": "R",
+            "skillOut100": "30",
+            "experience": {
+                "since": "Nov 2016",
+                "upto": "Jul 2017"
             },
             "stack": []
         },
@@ -70,6 +145,44 @@
                 "upto": "Nov 2014"
             },
             "stack": []
+        }
+        {
+            "key": "db",
+            "language": "Databases",
+            "skillOut100": "70",
+            "experience": {
+                "since": "Feb 2014",
+                "upto": ""
+            },
+            "stack": [
+                {
+                    "key": "mssql",
+                    "framework": "MS SQL",
+                    "skillOut100": "60",
+                    "experience": {
+                        "since": "Feb 2015",
+                        "upto": "Mar 2018"
+                    }
+                },
+                {
+                    "key": "mongodb",
+                    "framework": "Mongo DB",
+                    "skillOut100": "60",
+                    "experience": {
+                        "since": "Aug 2016",
+                        "upto": "Aug 2017"
+                    }
+                },
+                {
+                    "key": "sqlite",
+                    "framework": "SQLite",
+                    "skillOut100": "60",
+                    "experience": {
+                        "since": "Aug 2016",
+                        "upto": "Aug 2017"
+                    }
+                }
+            ]
         }
     ],
     "credits": {

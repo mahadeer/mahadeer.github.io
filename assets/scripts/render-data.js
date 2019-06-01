@@ -13,7 +13,7 @@ function RenderData(data) {
 function CalculateExperience(experience) {
     var dateStarted = new Date(experience.since);
     var dateEnded = (experience.upto) ? new Date(experience.upto) : new Date();
-    return (dateEnded.getFullYear() - dateStarted.getFullYear()) + "." + (dateEnded.getMonth() - dateStarted.getMonth()) + " yrs"; // month zero based, explicitly eliminating +1
+    return (dateEnded.getFullYear() - dateStarted.getFullYear()) + "." + Math.abs(dateEnded.getMonth() - dateStarted.getMonth()) + " yrs"; // month zero based, explicitly eliminating +1
 }
 
 function BuildSkillsSection(skills) {
