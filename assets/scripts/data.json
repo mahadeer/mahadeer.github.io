@@ -39,6 +39,24 @@
                     }
                 },
                 {
+                    "key": "ts",
+                    "framework": "Typescript",
+                    "skillOut100": "90",
+                    "experience": {
+                        "since": "Dec 2017",
+                        "upto": "Nov 2018"
+                    }
+                },
+                {
+                    "key": "rxjs",
+                    "framework": "Rx Js",
+                    "skillOut100": "90",
+                    "experience": {
+                        "since": "Dec 2017",
+                        "upto": "Nov 2018"
+                    }
+                },
+                {
                     "key": "d3js",
                     "framework": "D3.js",
                     "skillOut100": "70",
