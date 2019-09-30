@@ -1,4 +1,4 @@
-const cacheName = 'm-dev-v3';
+const cacheName = 'm-dev-v4';
 const precacheResources = [
   '/',
   'index.html',
