@@ -1,0 +1,142 @@
+{
+    "me": {
+        "name": "Mahadeer Mohamed",
+        "description": "I am a Full Stack Developer located in Chennai, India. I currently work as a {position} for {company}, located in Chennai. I have expertise in Systems Programming to Web development, refer my Github repos to know about other works. My interests range from Software Development to Quantum Physics. I am also interested in Silicon Photonics, Computers, and Cinema Making.",
+        "phone": "+91-9080801032",
+        "email": "jmahadeer@gmail.com",
+        "social": {
+            "fb": "https://www.facebook.com/mahadeer2005",
+            "twitter": "https://twitter.com/mahadeer",
+            "github": "https://github.com/mahadeer",
+            "linkedin": "https://www.linkedin.com/in/mahadeer/",
+            "medium": "https://medium.com/@mahadeer"
+        }
+    },
+    "role": "Senior BI Developer",
+    "company": "Visual BI Solutions",
+    "skills": [
+        {
+            "name": "Programming Languages",
+            "list": [
+                "JavaScript",
+                "C#",
+                "Rust",
+                "TypeScript",
+                "Svelte",
+                "R",
+                "PHP",
+                "Python"
+            ]
+        },
+        {
+            "name": "Framework and Libraries",
+            "list": [
+                "NodeJS",
+                "ReactJS",
+                "AngularJS",
+                "jQuery",
+                "D3js",
+                "Angular",
+                "WebAPI",
+                "HangFire"
+            ]
+        },
+        {
+            "name": "Frontend Development",
+            "list": [
+                "HTML",
+                "CSS",
+                "Bootstrap",
+                "UIKit",
+                "SemanticUI",
+                "Pure CSS"
+            ]
+        },
+        {
+            "name": "Full stack Development",
+            "list": [
+                "MVC",
+                "MEAN Stack",
+                "PWA",
+                "NextJs"
+            ]
+        },
+        {
+            "name": "Databases",
+            "list": [
+                "MSSQL",
+                "MongoDB",
+                "SQLite",
+                "Redis"
+            ]
+        },
+        {
+            "name": "BI Platforms",
+            "list": [
+                "SAP Lumira",
+                "Power BI"
+            ]
+        }
+    ],
+    "experience": [
+        {
+            "role": "Senior BI Developer",
+            "company": "Visual BI Solutions",
+            "involved": "Dec 2018 - Present",
+            "location": "SP Infocity, Perungudi, Chennai",
+            "technology": "SAP Lumira, PowerBI, AngularJS, ReactJS, Python",
+            "description": "Developed VBX Extensions and PBX Extensions, which are a set of widget consumed by SAP Lumira and PowerBI. The extensions will have multiple components which serve as an independent widget to create visualization reports using the above-mentioned Platforms."
+        },
+        {
+            "role": "Tech Lead",
+            "company": "Ducen IT Pvt Ltd.",
+            "involved": "Feb 2015 - Nov 2018",
+            "location": "Perungudi, Chennai",
+            "technology": "AngularJS, ReactJS, NodeJS, Web API, C#, MongoDB, SQL, HangFire, MVC",
+            "description": "Designed and Developed a Self serve BI Product for the company also Leading a team on a Bell.ca Development project and delivering solutions to meet and exceed clients’ briefs."
+        },
+        {
+            "role": "Software Engineer",
+            "company": "LVL237 Embedded R&D Ovt Ltd.",
+            "involved": "Feb 2014 - Jan 2015",
+            "location": "Anna Nagar, Chennai",
+            "technology": "Objective C, C#, Swift, NodeJS",
+            "description": "Involved in Designing and developing Mobile Application for the customer specific requirements."
+        }
+    ],
+    "education": [
+        {
+            "degree": "Master of Science",
+            "course": "Optical Communication and Signal Processing",
+            "involved": "2011 - 2013",
+            "university": "University of Bristol",
+            "location": "City of Bristol, England"
+        },
+        {
+            "degree": "Bachelor of Engineering",
+            "course": "Electronics and Communication",
+            "involved": "2007 - 2011",
+            "university": "Aalim Muhammed Salegh College of Engineering",
+            "location": "Avadi, Chennai"
+        }
+    ],
+    "showcase": [
+        {
+            "name": "UBT",
+            "title": "Unified Build Tool",
+            "url": "https://mahadeer.github.io/ubt/",
+            "shortNote": "UBT is a command-line tool used to run pre-deﬁned tasks.",
+            "programming": "Rust"
+        },
+        {
+            "name": "Chennaidroptaxi",
+            "title": "Taxi Booking Service",
+            "url": "https://chennaidroptaxi.in/",
+            "shortNote": "Taxi booking service for travelling across Tamil Nadu ",
+            "programming": "PHP, Svelte, Javascript, MySQL"
+        }
+    ],
+    "contact": {
+        
+    }
+}
