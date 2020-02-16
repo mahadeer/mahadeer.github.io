@@ -13,11 +13,11 @@
           </div>
           <a class="uk-button-link" href={item.url}>{item.url}</a>
           <div class="meta">
-            <p class="info">
+            <p class="uk-clear-fix info">
               <span class="title">Programming</span>
               <span class="value">{item.programming}</span>
             </p>
-            <p class="info">
+            <p class="uk-clear-fix info">
               <span class="title">Note</span>
               <span class="value">{item.shortNote}</span>
             </p>

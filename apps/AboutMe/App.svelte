@@ -85,13 +85,13 @@
               <span class="title">Phone</span>
               <span>{me.phone}</span>
             </p>
-            <p>
+            <p class="uk-clear-fix">
               <span class="title">Email</span>
               <span class="email">
                 <a href={'mailto:' + me.email}>{me.email}</a>
               </span>
             </p>
-            <p>
+            <p class="uk-clear-fix">
               <span class="title">Social</span>
               <span class="social-icons">
                 <a
@@ -116,7 +116,7 @@
               </span>
             </p>
           </div>
-          <div class="about-btns">
+          <div class="uk-clear-fix about-btns">
             <a
               href="#contact"
               class="uk-button uk-button-primary uk-button-large">

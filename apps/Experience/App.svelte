@@ -13,11 +13,11 @@
           </div>
           <p class="year">{item.involved}</p>
           <div class="meta">
-            <p class="info">
+            <p class="info uk-clear-fix">
               <span class="title">Location</span>
               <span class="value">{item.location}</span>
             </p>
-            <p class="info">
+            <p class="info uk-clear-fix">
               <span class="title">Technology</span>
               <span class="value">{item.technology}</span>
             </p>

@@ -36,7 +36,7 @@
     <p>{description}</p>
   </div>
 </div>
-<div class="zigzag">
+<div class="zigzag uk-visible@m">
   <Wave strokeColor="#EF0" />
   <Wave strokeColor="#336" />
 </div>
