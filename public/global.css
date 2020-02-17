@@ -63,3 +63,7 @@ body {
 #showcase>.uk-divider-icon {
     display: none;
 }
+
+.uk-clear-fix {
+    clear: both;
+}
