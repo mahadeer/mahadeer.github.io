@@ -12,8 +12,8 @@
             "medium": "https://medium.com/@mahadeer"
         }
     },
-    "role": "Senior BI Developer",
-    "company": "Visual BI Solutions",
+    "role": "Senior Software Engineer",
+    "company": "Tekion Corp",
     "skills": [
         {
             "name": "Programming Languages",
@@ -80,9 +80,17 @@
     ],
     "experience": [
         {
-            "role": "Senior BI Developer",
-            "company": "Visual BI Solutions",
-            "involved": "Dec 2018 - Present",
+            "role": "Senior Software Engineer",
+            "company": "Tekion Corp",
+            "involved": "Jan 2022 - Present",
+            "location": "Chennai ONE, Perungudi, Chennai",
+            "technology": "ReactJS",
+            "description": ""
+        },
+        {
+            "role": "Lead BI Developer",
+            "company": "Lumel Technologies (formerly Visual BI Solutions)",
+            "involved": "Dec 2018 - Jan 2022",
             "location": "SP Infocity, Perungudi, Chennai",
             "technology": "SAP Lumira, PowerBI, AngularJS, ReactJS, Python",
             "description": "Developed VBX Extensions and PBX Extensions, which are a set of widget consumed by SAP Lumira and PowerBI. The extensions will have multiple components which serve as an independent widget to create visualization reports using the above-mentioned Platforms."
