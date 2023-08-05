@@ -12,7 +12,7 @@
             "medium": "https://medium.com/@mahadeer"
         }
     },
-    "role": "Senior Software Engineer",
+    "role": "Lead Software Engineer",
     "company": "Tekion Corp",
     "skills": [
         {
@@ -80,12 +80,12 @@
     ],
     "experience": [
         {
-            "role": "Senior Software Engineer",
+            "role": "Lead Software Engineer",
             "company": "Tekion Corp",
             "involved": "Jan 2022 - Present",
-            "location": "Chennai ONE, Perungudi, Chennai",
+            "location": "Embassy Splendid Techzone, Pallavaram, Chennai",
             "technology": "ReactJS",
-            "description": ""
+            "description": "Working primarily on developing a CRM software."
         },
         {
             "role": "Lead BI Developer",
