@@ -137,11 +137,11 @@
             "programming": "Rust"
         },
         {
-            "name": "Chennaidroptaxi",
-            "title": "Taxi Booking Service",
-            "url": "https://chennaidroptaxi.in/",
-            "shortNote": "Taxi booking service for travelling across Tamil Nadu ",
-            "programming": "PHP, Svelte, Javascript, MySQL"
+            "name": "MindVault",
+            "title": "Personal Knowledge Management",
+            "url": "https://mahadeer.github.io/mindvault/",
+            "shortNote": "MindVault provides powerful organization capabilities with both standalone UI and LLM integration options.",
+            "programming": "Rust, Axum, MongoDB"
         }
     ],
     "contact": {
